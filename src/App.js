@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import StarterPage from './components/pages/StarterPage';
 
 function App() {
+  const newDate = new Date().getFullYear();
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <header>To exit modal hit Esc button</header>
+      <StarterPage />
+      <footer>Copyright &copy;{newDate}</footer>
+    </>
   );
 }
 
