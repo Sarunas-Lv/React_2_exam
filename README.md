@@ -1,10 +1,16 @@
-# Getting Started with Create React App
+## Table of contents
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- [General info](#general-info)
+- [Technologies](#technologies)
+- [Setup](#setup)
 
-# PLEASE MAKE SURE YOUR LIBRARIES VERSIONS ARE UP TO DATE
+## General info
 
-## Used Technologies
+This is second React Exam to test the skills learned durning additional indepth React course. Sadly not much new from what we've learned was tested
+
+## Technologies
+
+Project is created using:
 
 - react": "^17.0.2",
 - "react-dom": "^17.0.2",
@@ -13,14 +19,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - "styled-components": "^5.3.3",
 - "web-vitals": "^1.1.2"
 
-## starting
+## Setup
 
 1. open terminal navigate to you 1_frontend folder and write: `npm i`
-2. deploy the app by writing in your terminal:
-
-## Scripts
-
-In the project directory, you can run: `npm start`
+2. deploy the app by writing in your terminal by running:`npm start`
 
 ### `npm start`
 

@@ -32,3 +32,15 @@ footer {
   justify-content: center;
   align-items: center;
 }
+/* input style */
+.incorrect {
+  border: 3px solid crimson;
+  background-image: url(./images/error-image.png);
+  background-size: contain;
+}
+
+.correct {
+  border: 3px solid green;
+  background-image: url(./images/valid-image.png);
+  background-size: contain;
+}

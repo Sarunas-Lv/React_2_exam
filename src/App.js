@@ -4,7 +4,7 @@ function App() {
   const newDate = new Date().getFullYear();
   return (
     <>
-      <header>To exit modal hit Esc button</header>
+      <header>To exit modal hit Esc button or click outside of modal</header>
       <StarterPage />
       <footer>Copyright &copy;{newDate}</footer>
     </>

@@ -3,12 +3,11 @@ import FormSection from '../form/FormSection';
 import Hero from '../hero/Hero';
 import React from 'react';
 import { Overlay, ModalWrapper, ModalContent } from './Modal.style';
-
-const Modal = () => {
+const Modal = ({ action }) => {
   return (
     <>
       <Overlay></Overlay>
-      <ModalWrapper>
+      <ModalWrapper onClick={action} id='wrapper'>
         <ModalContent>
           <Hero />
           <FormSection />
